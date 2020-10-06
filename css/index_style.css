@@ -1,3 +1,4 @@
+/* whole page */
 html {
   background: url("https://libreshot.com/wp-content/uploads/2015/05/coffee-and-laptop.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -32,6 +33,7 @@ header {
   color: #c8cbcc;
 }
 
+/* container inputs */
 .container input[type="number"] {
   width: 4em;
   height: 1.9em;
@@ -56,6 +58,8 @@ font-weight: bold;
   font-size: 1.5em;
 }
 
+
+/* container submit button */
 .container .submit button[type="submit"] {
   background-color: black;
   background: transparent;
@@ -82,6 +86,8 @@ font-weight: bold;
   background-color: #93bdb9;
 }
 
+
+/* container result */
 .container .result {
   margin-left: 100px;
 }
