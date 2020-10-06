@@ -1,0 +1,87 @@
+html {
+  background: url("https://libreshot.com/wp-content/uploads/2015/05/coffee-and-laptop.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  align-items: center;
+  height: 100%;
+}
+
+
+/* HEADER */
+header {
+  margin-top: 3em;
+  text-align: center;
+  color: #c8cbcc;
+}
+
+/* CONTAINER */
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 25em;
+  height: 25em;
+
+  border: 2px solid black;
+  border-radius: 5%;
+
+  color: #c8cbcc;
+}
+
+.container input[type="number"] {
+  width: 4em;
+  height: 1.9em;
+  border-radius: 4%;
+
+font-weight: bold;
+  padding: 0 0.5em;
+}
+
+.container .input_nr {
+  margin-top: 100px;
+  margin-left: 90px;
+}
+
+.container .input_base {
+  margin-top: 15px;
+  margin-left: 90px;
+}
+
+.container .input_nr, .container .input_base, .container .result {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.container .submit button[type="submit"] {
+  background-color: black;
+  background: transparent;
+  color: black;
+  box-shadow: 0px 0px 0px transparent;
+
+  border: 0px solid transparent;
+  border-radius: 7%;
+
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 1.1em;
+
+  height: 50px;
+  width: 150px;
+
+  margin-top: 1em;
+  margin-left: 115px;
+
+  transition: 1s background ease-in-out;
+}
+
+.container .submit button[type="submit"]:hover {
+  background-color: #93bdb9;
+}
+
+.container .result {
+  margin-left: 100px;
+}
