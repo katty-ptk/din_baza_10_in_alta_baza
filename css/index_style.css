@@ -89,5 +89,20 @@ font-weight: bold;
 
 /* container result */
 .container .result {
-  margin-left: 100px;
+  margin-left: 80px;
+}
+
+
+/* JS STYLES */
+  /* error */
+#error_msg, #result_msg {
+  width: 10em;
+  padding: 0.5em;
+  border: 2px solid red;
+  color: rgb(219, 209, 67);
+}
+
+#result_msg {
+  width: 9.2em;
+  border: 2px solid blue;
 }
