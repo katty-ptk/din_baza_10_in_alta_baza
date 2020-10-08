@@ -58,6 +58,10 @@ font-weight: bold;
   font-size: 1.5em;
 }
 
+.container .input_base {
+  text-indent: 4%;
+}
+
 
 /* container submit button */
 .container .submit button[type="submit"] {
