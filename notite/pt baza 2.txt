@@ -1,0 +1,40 @@
+impartim nr la 2 pana cand catul = 0
+luam resturile in ordine inversa
+
+// algoritm // 
+ -- variabila copie pt number
+
+
+ -- array pentru resturi
+ -- pana cand numarul = 1, ia restul fiecarei impartiri a nr cu 2 si pune-l in array
+      --- nr = nr / 2
+-- cand ultimul cat este 0 => gata
+
+
+-- revers-uie array-
+-- join-uie array-ul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+91(10) = 
+91 : 2 = 45 r 1
+45 : 2 = 22 r 1
+22 : 2 = 11 r 0
+11 : 2 = 5 r 1
+ 5 : 2 = 2 r 1
+ 2 : 2 = 1 r 0
+ 1 : 2 = 0 r 1
