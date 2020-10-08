@@ -103,10 +103,13 @@ font-weight: bold;
   width: 10em;
   padding: 0.5em;
   border: 2px solid red;
-  color: rgb(219, 209, 67);
+  border-radius: 25em;
+  color: rgb(241, 229, 241);
+  /* color: rgb(219, 209, 67); */
 }
 
 #result_msg {
   width: 9.2em;
   border: 2px solid blue;
+  border-radius: 15px;
 }
