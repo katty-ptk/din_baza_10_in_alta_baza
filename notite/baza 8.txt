@@ -1,0 +1,5 @@
+-- se transforma nr in baza 2
+    --- se fac grupe de cate 3 de la dreapta la stanga
+    --- fiecare grupa se transforma in baza 10
+    --- rezultatele in baza 10 se scriu de jos in sus
+
