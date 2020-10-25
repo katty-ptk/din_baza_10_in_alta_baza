@@ -1,8 +1,8 @@
 var result_p = document.createElement('p');
-let result;
+var result;
 
 // FUNCTIONS
-transform_in_base_2 = ( number, base, number_copy ) => {
+transform_in_base_2_or_8 = ( number, base, number_copy ) => {
 
   var reminders = new Array(); // contains the reminders for creating the result
 
@@ -11,17 +11,13 @@ transform_in_base_2 = ( number, base, number_copy ) => {
     reminders.push(reminder);
   }
 
-  // console.log(digits);
-
   var result_arr = new Array();
   result_arr = reminders.reverse();
-  // console.log(result_arr);
-  // console.log(result_arr.join(''));
 
   result = result_arr.join('');
+  console.log("result in base 2: ", result)
 
-  result_p.textContent = "Numarul " + number + " trasformat in baza 2 este " + result;
-
+  return {reminders, result_arr};
 }
 
 $("#submit_btn").click(function(e) {
@@ -36,11 +32,13 @@ $("#submit_btn").click(function(e) {
 
     switch ( base ) {
       case 2:
-        transform_in_base_2( number, base, number_copy );
+        transform_in_base_2_or_8( number, base, number_copy );
+        result_p.textContent = "Numarul " + number + " trasformat in baza 2 este " + result;
         break;
 
       case 8:
-        // function
+        transform_in_base_2_or_8( number, base, number_copy );
+        result_p.textContent = "Numarul " + number + " trasformat in baza 2 este " + result;
         break;
 
       case 16:
