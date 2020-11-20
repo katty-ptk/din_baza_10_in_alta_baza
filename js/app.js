@@ -38,7 +38,7 @@ $("#submit_btn").click(function(e) {
 
       case 8:
         transform_in_base_2_or_8( number, base, number_copy );
-        result_p.textContent = "Numarul " + number + " trasformat in baza 2 este " + result;
+        result_p.textContent = "Numarul " + number + " trasformat in baza 8 este " + result;
         break;
 
       case 16:
