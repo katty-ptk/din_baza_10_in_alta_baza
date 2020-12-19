@@ -41,9 +41,9 @@ $("#submit_btn").click(function(e) {
         result_p.textContent = "Numarul " + number + " trasformat in baza 8 este " + result;
         break;
 
-      case 16:
-        // function
-        break;
+      /*case 16:
+        
+        break; */
 
       case 10:
         result_p.textContent = "Numarul introdus este deja in baza 10";
